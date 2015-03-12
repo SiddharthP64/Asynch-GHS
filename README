@@ -1,0 +1,14 @@
+Team members:
+Geoffrey Grimmer
+Siddharth Perumal
+
+Using the CS1 system:
+use the command:
+g++ -pthread -o Asynch.out AsynchGHS.cc
+
+run with
+./Asynch.out
+
+Input file must be named input.txt and should be in the working directory.
+Input file has the number of processes n on the first line followed by an adjacency matrix, where a 0 represents no link and an non zero edge weight represents a bidirectional link. There must be spaces between every entry.
+Please see the sample input file included in our submission.
